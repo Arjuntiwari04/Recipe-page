@@ -170,17 +170,34 @@ body{
   margin-right: 3vw;
   width: 43.6vw;
 }
-.calories{
-  margin-left: 1vw;
-  font-size: 15px;
+.calories,
+.carbs,
+.protein,
+.fat{
+  margin-left: 2vw;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(77, 74, 74);
 }
-.calories-gram{
+.calories-gram,
+.carbs-gram,
+.fat-gram,
+.protein-gram{
   margin-left: 24vw;
   font-weight: 600;
   font-size: 18px;
   color: rgb(163, 70, 70);;
 }
+.carbs-gram{
+  margin-left: 25.55vw;
+}
 
+.protein-gram{
+  margin-left: 24.8vw;
+}
+.fat-gram{
+  margin-left: 26.9vw;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: rgb(62, 82, 163); }
