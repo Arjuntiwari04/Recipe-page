@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(221, 190, 178, 0.178);
+}
+.full-page-body-part{
+  margin-top: 9vh;
+  margin-bottom: 9vh;
+  margin-left: 25vw;
+  margin-right: 24vw;
+  background-color: white;
+  border-radius: 20px;
+}
+.recipe-introduction{
+  /* padding: 4vh 2vw; */
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  /* padding-left: 0vw; */
+  padding-right: 0.50vw;
+}
+.omelette-image{
+  margin-left: 1vw;
+  width: 45.5vw;
+  border-radius: 5px;
+}
+.simple-omelette-text{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.recipe-introduction-text{
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+}
+/* .preparation-detail{
+} */
+.allItem-warp{
+  position: relative;
+  margin: 12px 25px;
+  background-color: rgba(163, 52, 163, 0.068);
+  height: 135px;
+}
+.preparation-time-text{
+  position: absolute;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(27, 2, 27);
+}
+.preparation-list{
+  position: absolute;
+  padding: 0;
+  margin-top: 5vh;
+  margin-left: 3.2vw;
+}
+.preparation-list ul{
+  padding-left: 2vw;
+}
+.preparation-list ul li{
+  line-height: 3.5vh;
+  padding-left: 1vw;
+}
+.ingredients{
+  display: block;
+  margin-left: 2vw;
+  margin-bottom: 4vh;
+  color: rgb(163, 70, 70);
+}
+.nutrition-heading,
+.instruction-heading,
+.ingredients-text{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgb(163, 70, 70);
+}
+.ingredients-list ul{
+  color: rgb(163, 70, 70);
+  padding-left: 24px;
+}
+.ingredients-list ul li span {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: black;
+}
+.borderline1,
+.borderline2,
+.borderline3,
+.borderline4,
+.borderline{
+  display: flex;
+  justify-items: center;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  width: 45.5vw;
+  height: 1px;
+  background-color: rgb(207, 207, 207);
+}
+.instruction{
+  margin-left: 2vw;
+  margin-top: 3vh;
+  margin-bottom: 3vhpx;
+}
+/* .instruction-heading{
+  color: rgb(163, 70, 70);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+} */
+.step-by-step-instruction{
+  display: grid;
+  grid-template-rows: 5vh;
+  row-gap: 2vh;
+}
+.beat-egg{
+  display: flex;
+  width: 46vw;
+}
+.beat-egg-process{
+  line-height: 18px;
+}
+.beat-egg div:nth-child(1){
+  line-height: 18px;
+  margin-left: 0.3vw;
+  margin-right: 17px;
+  color: rgb(163, 70, 70);
+}
+.beat-egg-process span{
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.beat-egg-process div{
+  margin-bottom: 4vh;
+}
+.borderline1{
+  margin-left: 0.5vw;
+}
+.nutrition-table{
+  margin-left: 1vw;
+  margin-top: 3vh;
+}
+.nutrition-heading{
+  margin-left: -0.4vw;
+}
+.table-intro{
+  margin-bottom: 3vh;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(43, 40, 40);
+}
+.borderline2,
+.borderline3,
+.borderline4{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 0;
+  margin-right: 3vw;
+  width: 43.6vw;
+}
+.calories{
+  margin-left: 1vw;
+  font-size: 15px;
+}
+.calories-gram{
+  margin-left: 24vw;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(163, 70, 70);;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: rgb(62, 82, 163); }
