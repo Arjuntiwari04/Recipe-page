@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   background-color: rgba(221, 190, 178, 0.178);
 }
 .full-page-body-part{
@@ -44,7 +44,7 @@ body{
 .allItem-warp{
   position: relative;
   margin: 12px 25px;
-  background-color: rgba(163, 52, 163, 0.068);
+  background-color: rgba(163, 52, 163, 0.137);
   height: 135px;
 }
 .preparation-time-text{
@@ -81,7 +81,7 @@ body{
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 15px;
-  color: rgb(163, 70, 70);
+  color: hsl(14, 45%, 36%);
 }
 .ingredients-list ul{
   color: rgb(163, 70, 70);
@@ -186,7 +186,7 @@ body{
   margin-left: 24vw;
   font-weight: 600;
   font-size: 18px;
-  color: rgb(163, 70, 70);;
+  color: hsl(14, 45%, 36%);
 }
 .carbs-gram{
   margin-left: 25.55vw;
@@ -196,7 +196,167 @@ body{
   margin-left: 24.8vw;
 }
 .fat-gram{
-  margin-left: 0;
+  margin-left: 27vw;
+}
+
+@media (max-width: 1220px){
+  .step-by-step-instruction{
+    display: grid;
+    grid-template-rows: 10vh;
+  }
+  .fat-gram{
+    margin-left: 27vw;
+  }
+  .carbs-gram{
+    margin-left: 25vw;
+  }
+  .protein-gram{
+    margin-left: 24vw;
+  }
+  .calories-gram{
+    margin-left: 23vw;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 349px) {
+  .full-page-body-part{
+    margin: 7vh 0 7vh 0;
+    /*
+    margin-top: 7vh;
+    margin-bottom: 9vh;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    */
+  }
+  .recipe-introduction{
+    padding: 4vh 1vh 4vh 1vh;
+    /*
+    padding-top: 4vh;
+    padding-right: 2vw;
+    padding-bottom: 4vh;
+    padding-left: 2.5vw;
+    */
+  }
+  .omelette-image{
+    width: 80vw;
+  }
+  .simple-omelette-text{
+    margin: 20px 0 12px 2vw;
+    margin-top: 20px;
+    margin-left: 2vw;
+    margin-bottom: 12px;
+  }
+  .preparation-list ul{
+    padding-left: 7vw;
+  }
+  .preparation-list ul li{
+    line-height: 3.5vh;
+  }
+  .borderline1,
+  .borderline2,
+  .borderline3,
+  .borderline4,
+  .borderline{
+    width: 75vw;
+  }
+  .allItem-warp{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+    height: 22vh;
+  }
+  .nutrition-heading,
+  .instruction-heading,
+  .ingredients-text{
+    margin-left: 0.9vw;
+  }
+  .table-intro{
+    margin-right: 1.5vw;
+  }
+  .step-by-step-instruction{
+    display: grid;
+    grid-template-rows: 23vh;
+  }
+  .beat-egg {
+    width: 77vw;
+  }
+  .fat-gram{
+    margin-left: 35.5vw;
+  }
+  .carbs-gram{
+    margin-left: 27vw;
+  }
+  .protein-gram{
+    margin-left: 23vw;
+  }
+  .calories-gram{    
+  margin-left: 21.6vw;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 449px) {
+  .full-page-body-part{
+    margin-top: 7vh;
+    margin-bottom: 9vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .recipe-introduction{
+    padding: 4vh 2vh 4vh 2vh;
+    /*
+    padding-top: 4vh;
+    padding-right: 2vw;
+    padding-bottom: 4vh;
+    padding-left: 2.5vw;
+    */
+  }
+  .omelette-image{
+    width: 74vw;
+  }
+  .simple-omelette-text{
+    margin-top: 20px;
+    margin-left: 2vw;
+    margin-bottom: 12px;
+  }
+  .borderline1,
+  .borderline2,
+  .borderline3,
+  .borderline4,
+  .borderline{
+    width: 72vw;
+  }
+  .allItem-warp{
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+  }
+  .nutrition-heading,
+  .instruction-heading,
+  .ingredients-text{
+    margin-left: 0.9vw;
+  }
+  .table-intro{
+    margin-right: 1.5vw;
+  }
+  .step-by-step-instruction{
+    display: grid;
+    grid-template-rows: 14vh;
+  }
+  .beat-egg {
+    width: 75vw;
+  }
+  .fat-gram{
+    margin-left: 31.5vw;
+  }
+  .carbs-gram{
+    margin-left: 26vw;
+  }
+  .protein-gram{
+    margin-left: 23vw;
+  }
+  .calories-gram{    
+  margin-left: 21.6vw;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 549px) {
@@ -241,13 +401,16 @@ body{
   }
   .step-by-step-instruction{
     display: grid;
-    grid-template-rows: 16vh;
+    grid-template-rows: 12vh;
+  }
+  .beat-egg {
+    width: 68vw;
   }
   .fat-gram{
-    margin-left: 29vw;
+    margin-left: 30.5vw;
   }
   .carbs-gram{
-    margin-left: 25vw;
+    margin-left: 25.5vw;
   }
   .protein-gram{
     margin-left: 23.5vw;
@@ -297,7 +460,10 @@ body{
   }
   .step-by-step-instruction{
     display: grid;
-    grid-template-rows: 15vh;
+    grid-template-rows: 10vh;
+  }
+  .beat-egg {
+    width: 60vw;
   }
   .fat-gram{
     margin-left: 29vw;
@@ -359,7 +525,10 @@ body{
   }
   .step-by-step-instruction{
     display: grid;
-    grid-template-rows: 12vh;
+    grid-template-rows: 10vh;
+  }
+  .beat-egg {
+    width: 52.5vw;
   }
   .fat-gram{
     margin-left: 29vw;
@@ -385,34 +554,16 @@ body{
     grid-template-rows: 12vh;
   }
   .fat-gram{
-    margin-left: 28.2vw;
+    margin-left: 27.5vw;
   }
   .protein-gram{
-    margin-left: 24.4vw;
+    margin-left: 24.2vw;
   }
   .calories-gram{    
   margin-left: 23vw;
   }
 }
 
-@media (min-width: 970px){
-  .step-by-step-instruction{
-    display: grid;
-    grid-template-rows: 7.5vh;
-  }
-  .fat-gram{
-    margin-left: 27vw;
-  }
-  .carbs-gram{
-    margin-left: 25vw;
-  }
-  .protein-gram{
-    margin-left: 24vw;
-  }
-  .calories-gram{
-    margin-left: 23.5vw;
-  }
-}
 
 @media (min-height: 200px) and (max-height: 300px){
   .preparation-list ul li{
